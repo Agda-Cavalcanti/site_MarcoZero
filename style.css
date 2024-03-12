@@ -8,6 +8,11 @@ h1{
     font-size: 40px;
 }
 
+h1,h2{
+    display: flex;
+    justify-content: center;  
+}
+
 h2, p{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -18,7 +23,8 @@ li{
 }
 
 h3{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 
 a{
@@ -35,7 +41,6 @@ p#descricao{
 img{
     height: 300px;
     width: 400px;
-    
 }
 
 h4{
@@ -45,10 +50,7 @@ h4{
 
 }
 
-form{
-    
-}
-
 footer{
     background-color: antiquewhite;
 }
+
